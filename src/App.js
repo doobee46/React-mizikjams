@@ -9,7 +9,7 @@ import Home from './components/home';
 import { url } from './components/data';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBell, faUser, faPlus, faHeart } from '@fortawesome/free-solid-svg-icons'
-
+console.log(process.env.JWPLAYER_API_KEY)
 library.add(faBell, faUser, faPlus, faHeart)
 
 class App extends Component {
